@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Introduction to Data Science",
+        "description": "Learn the basics of Data Science, including data analysis, data visualization, and basic machine learning algorithms.",
+        "url": "https://www.analyticsvidhya.com/course/introduction-to-data-science/"
+    },
+    {
+        "title": "Python for Data Science",
+        "description": "This course will introduce you to Python programming and teach you how to use it for Data Science tasks such as data manipulation, analysis, and visualization.",
+        "url": "https://www.analyticsvidhya.com/course/python-for-data-science/"
+    },
+    {
+        "title": "Machine Learning Algorithms",
+        "description": "A comprehensive course on various machine learning algorithms, including supervised and unsupervised learning, with practical applications and examples.",
+        "url": "https://www.analyticsvidhya.com/course/machine-learning-algorithms/"
+    },
+    {
+        "title": "Deep Learning Specialization",
+        "description": "A deep dive into deep learning techniques, including neural networks, CNNs, RNNs, and practical implementation of deep learning models.",
+        "url": "https://www.analyticsvidhya.com/course/deep-learning-specialization/"
+    },
+    {
+        "title": "Natural Language Processing (NLP)",
+        "description": "Learn the fundamentals of Natural Language Processing and its applications, including text processing, sentiment analysis, and word embeddings.",
+        "url": "https://www.analyticsvidhya.com/course/natural-language-processing/"
+    },
+    {
+        "title": "Data Visualization with Python",
+        "description": "This course covers the creation of data visualizations using Python libraries such as Matplotlib, Seaborn, and Plotly.",
+        "url": "https://www.analyticsvidhya.com/course/data-visualization-python/"
+    },
+    {
+        "title": "Time Series Analysis and Forecasting",
+        "description": "Learn how to work with time series data, including forecasting, anomaly detection, and statistical modeling.",
+        "url": "https://www.analyticsvidhya.com/course/time-series-analysis-forecasting/"
+    },
+    {
+        "title": "Big Data Analytics",
+        "description": "An introductory course on big data technologies, including Hadoop, Spark, and distributed computing.",
+        "url": "https://www.analyticsvidhya.com/course/big-data-analytics/"
+    }
+]

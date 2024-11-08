@@ -1,0 +1,27 @@
+Enter Search Query,Search Results,flag,username,timestamp
+"python
+","Course: Python for Data Science
+Description: This course will introduce you to Python programming and teach you how to use it for Data Science tasks such as data manipulation, analysis, and visualization.
+Score: 0.6284948587417603
+URL: https://www.analyticsvidhya.com/course/python-for-data-science/
+
+Course: Data Visualization with Python
+Description: This course covers the creation of data visualizations using Python libraries such as Matplotlib, Seaborn, and Plotly.
+Score: 0.4186185896396637
+URL: https://www.analyticsvidhya.com/course/data-visualization-python/
+
+Course: Introduction to Data Science
+Description: Learn the basics of Data Science, including data analysis, data visualization, and basic machine learning algorithms.
+Score: 0.2482827603816986
+URL: https://www.analyticsvidhya.com/course/introduction-to-data-science/
+
+Course: Machine Learning Algorithms
+Description: A comprehensive course on various machine learning algorithms, including supervised and unsupervised learning, with practical applications and examples.
+Score: 0.2372426688671112
+URL: https://www.analyticsvidhya.com/course/machine-learning-algorithms/
+
+Course: Natural Language Processing (NLP)
+Description: Learn the fundamentals of Natural Language Processing and its applications, including text processing, sentiment analysis, and word embeddings.
+Score: 0.2080708146095276
+URL: https://www.analyticsvidhya.com/course/natural-language-processing/
+",,,2024-11-08 14:54:51.463214
