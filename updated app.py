@@ -36,8 +36,40 @@ def gradio_interface(query):
 
 # Create the Gradio interface using Blocks
 with gr.Blocks() as interface:
-    # Add the logo image independently
-    gr.Image("/Users/avanimehrotra/Library/Mobile Documents/com~apple~CloudDocs/Desktop/SUBJECTS/Projects/projectsjune/smart_search_tool/assets/logo copy.png", label="Logo", type="filepath")  # Display the logo above the input bar
+    # CSS to center the logo and remove any background or borders
+    logo_style = """
+    <style>
+        #logo-image {
+            width: 400px;  /* Set the width */
+            height: 350px; /* Set the height */
+            object-fit: contain; /* Preserve aspect ratio */
+            display: block; /* Make it block-level to center */
+            margin: 0 auto; /* Center the image */
+            background: transparent; /* Ensure background is transparent */
+            border: none; /* Remove any border */
+        }
+        .button-container {
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            margin: 20px 0; /* Add some margin for spacing */
+        }
+        .button-container button {
+            width: 100px; /* Set a fixed width for buttons */
+            margin: 0 10px; /* Add some space between buttons */
+        }
+    </style>
+    """
+    
+    # Inject the CSS styles
+    gr.HTML(logo_style)
+    
+    # Add the logo image directly without a container
+    gr.Image(
+        "/Users/avanimehrotra/Library/Mobile Documents/com~apple~CloudDocs/Desktop/SUBJECTS/Projects/projectsjune/smart_search_tool/assets/logo copy.png", 
+        label="Logo", 
+        type="filepath", 
+        elem_id="logo-image"  # Add an ID for CSS styling
+    )  # Display the logo above the input bar
     
     # Add the title beside the logo
     gr.HTML("""
@@ -50,11 +82,12 @@ with gr.Blocks() as interface:
     # Output area for results
     output_area = gr.HTML()  # Display results as HTML
     
-    # Button to trigger the search
-    search_button = gr.Button("Search")
-    
-    # Button to clear the input and output
-    clear_button = gr.Button("Clear")
+    # Create a row for the buttons
+    with gr.Row(elem_id="button-container"):
+        # Button to trigger the search
+        search_button = gr.Button("Search", elem_id="search-button", scale=0.5)  # Adjust scale for size
+        # Button to clear the input and output
+        clear_button = gr.Button("Clear", elem_id="clear-button", scale=0.5)  # Adjust scale for size
     
     # Define the action for the search button
     search_button.click(gradio_interface, inputs=query_input, outputs=output_area)
